@@ -1,0 +1,67 @@
+  /*HEADER*/
+  .header-logo {
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    margin-top: 50px;
+  }
+
+  /*.header-h1 {
+    color: #031927;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 0px 50px 0px;
+    margin-left: 110px;
+  } */
+
+  .destacados{
+    margin: 0px 20px 80px 0px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .destacados__elementos{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .destacados__elementos__card{
+    margin: 0px 20px 20px 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+  }
+
+  .destacados__elementos__card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+  }
+  .index__h2{
+    color: #031927;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 1em;
+    padding: 15px 0px 20px 40px;
+  }
+
+  .index__h2--vichos{
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px 0px 0px 15px;
+  }
+
+  .index__p{
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    padding: 0px 0px 10px 20px;
+  }
+  
+  .vichos{
+    margin: 20px 20px 80px 0px;
+    padding: 10px 0px 20px 0px;
+    background-color: #d37545;
+
+  }

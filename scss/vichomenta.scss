@@ -1,0 +1,17 @@
+.header__banner{
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+  } 
+
+.destacados__cuadernos{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .destacados__cuadernos__img{
+    max-width: 280px;
+    height: auto;
+  }

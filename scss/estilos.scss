@@ -1,0 +1,162 @@
+/*RESETEO*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  /*INDEX*/
+  @import 'home';
+  /*VICHO+MENTA*/
+  @import 'vichomenta';
+  /*PROYECTOS*/
+  @import 'proyectos';
+  /*PORTFOLIO*/
+  @import 'portfolio';
+  /*CONTACTO*/
+  @import 'contacto';
+  /*--------------------NAVBAR--------------------*/
+  #navbar{
+    width: 100vw;
+    height: 64px;
+    background-color: #031927;
+    font-weight: bold;
+    position: fixed;
+    z-index: 1;
+  }
+
+  ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  li a{
+    text-decoration: none;
+    color:#ffffff;
+    padding-right: 3em;
+  }
+
+  li a:hover{
+    color: #F01c32;
+    transition: all ease-in-out 250ms;
+  }
+  
+  .nav__logo{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+  /*--------------------------ESTILOS FOOTER--------------------------*/
+  
+  .footer {
+    height: 150px;
+    background-color:#ffffff;
+    color:#253133;
+    text-align: center;
+  }
+  
+  .footer__logo{
+    text-align: center;
+    width: 80px;
+  }
+  
+  .footer__redes{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .footer__redes__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #253133;
+    width: 50px;
+    height: 50px;
+  }
+
+  /*--------------------------ESTILOS TEXTO--------------------------*/
+  .texto__h1{
+    color: #031927;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'nunito', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px 0px 50px 0px;
+  }
+
+  .texto__h2{
+    color: #031927;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'nunito', sans-serif;
+    letter-spacing: 5px;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .texto__h3{
+    color: #031927;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'nunito', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px 0px 50px 0px;
+  }
+
+  /*Texto font-family:'Open Sans', sans-serif;*/
+
+/*--------------------------PRUEBA--------------------------*/
+$botones:(
+  enviar: blue,
+  borrar: red,
+  vermas: yellow,
+);
+
+@each $boton, $color in $botones{
+  #btn--#{$boton}{
+    background-color: $color;
+    border: $color;
+  }
+}
+ 
+
+  /*--------------------------MEDIA QUERIES--------------------------*/
+  @media only screen and (max-width:360px)
+  {
+    #nav{
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width:768px)
+  {
+
+  .header__banner{
+    min-height: 350px;
+  }
+  
+  .texto__h2{
+    font-size: 1.5rem;
+  }
+  
+/*ESTILOS INDEX*/
+  .header__logo {
+    width: 250px;
+    max-width: 250px;
+  }
+
+  .header__h1 {
+    font-size: 2rem;
+  }
+
+  .proyectos__p{
+    padding: 0px 0px 10px 20px;
+    margin: 20px 600px 50px 10px;
+
+  }
+}
