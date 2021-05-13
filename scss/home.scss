@@ -1,24 +1,19 @@
   /*HEADER*/
+  .header{
+      display: flex;
+  }
+
   .header-logo {
     width: 50%;
     height: auto;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
-  /*.header-h1 {
-    color: #031927;
-    text-align: left;
-    font-size: 2rem;
-    font-weight: 400;
-    font-family: 'Lato', sans-serif;
-    padding: 0px 0px 50px 0px;
-    margin-left: 110px;
-  } */
-
   .destacados{
-    margin: 0px 20px 80px 0px;
-    padding: 10px 0px 10px 0px;
+    margin: 0px 20px 50px 0px;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
   }
 
   .destacados__elementos{
@@ -38,7 +33,6 @@
   }
   .index__h2{
     color: #031927;
-    font-weight: 400;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     margin: 1em;
@@ -62,6 +56,5 @@
   .vichos{
     margin: 20px 20px 80px 0px;
     padding: 10px 0px 20px 0px;
-    background-color: #d37545;
-
+    background-color: #F01c32;
   }
