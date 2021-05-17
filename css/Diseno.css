@@ -110,10 +110,8 @@
 /*PORTFOLIO*/
 .portfolio__seccion {
   background-color: #dfd9e2;
-  display: flex; }
-
-.portfolio {
-  justify-content: center; }
+  display: flex;
+  justify-content: space-evenly; }
 
 .portfolio__seccion__img {
   width: 280px;

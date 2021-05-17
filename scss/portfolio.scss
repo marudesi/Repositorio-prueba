@@ -1,11 +1,10 @@
 .portfolio__seccion {
     background-color: #dfd9e2;
     display: flex;
+    justify-content: space-evenly;
+
    }
-  
-.portfolio{
-    justify-content: center;
-}
+
   .portfolio__seccion__img {
     width: 280px;
     height: 280px;
